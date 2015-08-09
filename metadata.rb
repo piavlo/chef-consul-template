@@ -19,8 +19,9 @@ supports 'centos', '= 7.1'
 supports 'centos', '= 6.5'
 supports 'arch'
 
+depends 'consul', '0.11.1'
 depends 'ark'
 depends 'golang', '~> 1.4'
 depends 'runit'
 depends 'apt'
-depends 'consul'
+
